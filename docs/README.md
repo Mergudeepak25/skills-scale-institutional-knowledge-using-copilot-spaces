@@ -19,16 +19,29 @@ OctoAcme runs projects with these core principles:
 4. **Release** → Deploy, verify, announce
 5. **Close & Retrospective** → Capture learnings and next steps
 
-## Quick Navigation
+## 3–4 Paragraph Overview of OctoAcme Project Management Processes
 
-- [Project Management Overview](./octoacme-project-management-overview.md)
-- [Project Initiation Guide](./octoacme-project-initiation.md)
-- [Project Planning](./octoacme-project-planning.md)
-- [Execution & Tracking](./octoacme-execution-and-tracking.md)
-- [Risk Management & Communication](./octoacme-risks-and-communication.md)
-- [Release & Deployment Guide](./octoacme-release-and-deployment.md)
-- [Retrospective & Continuous Improvement](./octoacme-retrospective-and-continuous-improvement.md)
-- [Roles and Personas](./octoacme-roles-and-personas.md)
+OctoAcme follows a structured yet lightweight project lifecycle designed to quickly validate ideas and iteratively deliver customer value. Projects begin with a focused initiation phase that produces a one-pager capturing the problem, objectives, success metrics, stakeholders, and high-level milestones. Once approved, teams move into planning where work is broken into prioritized backlog items with clear acceptance criteria, estimates, and a Definition of Done to guide implementation and testing.
+
+During execution, work is tracked on a project board with columns from Backlog to Done, and a PR-driven development workflow that emphasizes small changes, automated CI checks, and peer review. Short daily standups address blockers and dependencies while weekly delivery syncs and demos maintain alignment with stakeholders. Escalation paths and a risk register ensure that issues are identified early and escalated appropriately when needed.
+
+Quality assurance is integrated across the process: unit and integration tests, end-to-end smoke tests for critical flows, security scanning in CI, and manual QA where necessary. Releases are categorized (patch, minor, major) with pre-release requirements including passing CI, release notes, and rollback plans. Post-release verifications and a blameless incident retrospective feed improvements back into planning and the team's continuous improvement cycle.
+
+## Process Documentation
+
+### Getting Started
+- **[Project Management Overview](./octoacme-project-management-overview.md)** — Start here for an introduction to our approach, roles, and key artifacts
+- **[Roles and Personas](./octoacme-roles-and-personas.md)** — Understand responsibilities for developers, product managers, project managers, and stakeholders
+
+### Project Phases
+- **[Project Initiation](./octoacme-project-initiation.md)** — Validate ideas, align stakeholders, create a lightweight plan
+- **[Project Planning](./octoacme-project-planning.md)** — Turn approved initiatives into actionable plans and backlogs
+- **[Execution & Tracking](./octoacme-execution-and-tracking.md)** — Manage day-to-day execution and progress tracking
+- **[Release & Deployment](./octoacme-release-and-deployment.md)** — Standardize releases and deployments to production
+
+### Ongoing Management
+- **[Risk Management & Communication](./octoacme-risks-and-communication.md)** — Identify, manage, and communicate risks and dependencies
+- **[Retrospective & Continuous Improvement](./octoacme-retrospective-and-continuous-improvement.md)** — Capture learnings and iterate on processes
 
 ## How to Use These Docs
 
@@ -55,8 +68,6 @@ Across our processes, you'll create and maintain these artifacts:
 - Monthly stakeholder updates
 - Ad-hoc escalations as needed
 
-## Brief Overview of OctoAcme Project Management Processes
+## Questions or Feedback?
 
-OctoAcme organizes work through a concise lifecycle: initiation, planning, execution, release, and retrospective. Initiation validates the business need and defines success metrics using a lightweight Project One-pager. Planning breaks approved initiatives into prioritized backlogs, defines the Definition of Done, and maps release milestones. Execution uses a project board with standard columns and a CI-first PR workflow to manage day-to-day delivery. Release requires pre-release checks, release notes, and rollback plans before production deployments. Continuous improvement is driven by timeboxed retrospectives and tracked action items.
-
-OctoAcme emphasizes clear roles — Project Managers coordinate delivery and risks, Product Managers define outcomes and priorities, developers implement and test, and QA validates acceptance criteria. Communication follows a regular cadence (daily standups, weekly syncs, demos, and monthly stakeholder updates) with defined escalation paths for blockers and incidents. Quality practices include unit and integration tests, smoke tests for critical flows, security scanning in CI, and manual QA where necessary. Together these practices aim to deliver customer‑focused, iterative, and measurable outcomes.
+If you have questions about these processes or suggestions for improvements, please create an issue using the [Add Content to Process Docs](../.github/ISSUE_TEMPLATE/add-update-content-to-process-docs.yml) template.
